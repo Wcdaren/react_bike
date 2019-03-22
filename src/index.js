@@ -1,9 +1,14 @@
-import React, { PureComponent } from 'react'
-import ReactDOM, { render } from 'react-dom'
-import PropTypes from 'prop-types'
-import Test from './components/Test'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Admin from './admin'
 
 
-
-
-render(<Test></Test>, document.getElementById('root'))
+// Redux Store对象，管理所有的Redux状态
+ReactDOM.render(
+    <div>
+        <Admin />
+    </div>
+    ,
+    document.getElementById('root')
+);
+// ReactDOM.render(<Router />, document.getElementById('root'));
