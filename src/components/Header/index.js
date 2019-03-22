@@ -1,6 +1,5 @@
-import React, { PureComponent } from 'react'
-import PropTypes from 'prop-types'
-import { Row } from 'antd';
+import React from 'react'
+
 
 
 export default class Admin extends React.Component {
