@@ -24,7 +24,7 @@ export default class NavLeft extends React.Component {
           <h1>Test</h1>
         </div>
         {/* 菜单 */}
-        <Menu>
+        <Menu theme="dark">
           {this.state.menuTreeNode}
         </Menu>,
           </div>
@@ -47,4 +47,6 @@ export default class NavLeft extends React.Component {
     })
   }
 }
+
+
 
