@@ -476,6 +476,9 @@ module.exports = function (webpackEnv) {
                   sourceMap: isEnvProduction && shouldUseSourceMap,
                   modules: true,
                   getLocalIdent: getCSSModuleLocalIdent,
+                  modifyVars:{
+                    "@primary-color":"#f9c700"
+                  }
                 },
                 'less-loader'
               ),
